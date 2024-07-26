@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(23, 156, 156);
+    background-color: rgb(231, 231, 141);
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -14,7 +14,11 @@ body {
 }
 
 h1 {
-    font-size: 10vmin;
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
 }
 
 .container, .message-container {
@@ -53,7 +57,7 @@ h1 {
 #reset-btn, #new-btn {
     padding: 1rem;
     font-size: 1rem;
-    background-color: black;
+    background-color: #081b31;
     color: white;
     border-radius: 1rem;
     border: none;
@@ -61,7 +65,8 @@ h1 {
 
 .msg {
     font-size: 8vmin;
-    color: aliceblue;
+    color: rgb(3, 31, 56);
+    font-weight: bold;
 }
 
 .message-container {

@@ -58,7 +58,7 @@ const checkWinner = () => {
         let posVal3 = boxes[pattern[2]].innerText;
 
         if (posVal1 !== "" && posVal1 === posVal2 && posVal2 === posVal3) {
-            msg.innerText = `Congratulations! Winner is Player ${posVal1}`;
+            msg.innerText =`Congratulations!🎉 Winner is Player ${posVal1}👏🏼`;
             msgContainer.classList.remove("hide");
             disableBoxes();
             main.classList.add("hide");
